@@ -1,14 +1,14 @@
 # WebFont_Haxe
-Personal Guide to use the WebFontLoader with Haxe.
+Personal Guide to use the WebFontLoader with Haxe.\n
 This how I use the [WebFontLoader](https://github.com/typekit/webfontloader) in my haxe project.
 
 #Downloading WebFontLoader : 
 The first step is to get the WebFontLoader code.
-You can see the minified code (here)[http://ajax.googleapis.com/ajax/libs/webfont/1.5.10/webfont.js].
+You can see the minified code [here](http://ajax.googleapis.com/ajax/libs/webfont/1.5.10/webfont.js).
 You can then copy paste it into a file on your computer and then link it in your index.html file.
 You can also get the webFontLoader file in this repo.
 You should have something like that :
-``` HTML
+```HTML
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -28,7 +28,7 @@ You should have something like that :
 #Font and CSS setup
 You can use [font2web](http://www.font2web.com/) to convert your setup your font and CSS
 In any case, once you have your font in your assets (I've put it in assets/fonts), you should have un CSS like this one : 
-``` CSS
+```CSS
 @font-face {
 	font-family: 'YourFont';
 	src: url('assets/fonts/YourFont.ttf') format('truetype');
@@ -46,7 +46,7 @@ As I know verry little about writting Haxe externs, this extern is far from bein
 Once you've put this file in your project, you can start using the WebFontLoader with Haxe.
 Here's an exemple how to :
 
-```haxe
+```Haxe
 import externs.WebFontLoader;
 class Main
 {
@@ -72,9 +72,9 @@ class Main
 #Use with pixi.js
 If like me you use pixi.js, here's how to use the loaded fonts :
 
-``` haxe
+```Haxe
 import pixi.text.Text;
-class exemple {
+class Exemple {
 	private function new(){
 		var style:TextStyle = {font:"35px YourFont",align:"right"};
 		var tempText = new Text("Test", style);
