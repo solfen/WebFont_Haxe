@@ -1,5 +1,10 @@
 package externs;
 
+/**
+ * extern pour webfontloader
+ * @author Maxime Lo Re
+ */
+
 @:native("WebFont")
 extern class WebFontLoader 
 {	
