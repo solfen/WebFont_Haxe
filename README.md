@@ -20,7 +20,7 @@ You should have something like that :
 	</head>
 
 	<body>
-		<script src="HaxeTranspiledCode.js"></script>
+		<script src="pathToYourTranspiledJsFile.js"></script>
 	</body>
 </html>
 ```
@@ -47,7 +47,7 @@ Once you've put this file in your project, you can start using the WebFontLoader
 Here's an exemple how to :
 
 ```Haxe
-import externs.WebFontLoader;
+import pathToTheFolderWichContainTheExtern.WebFontLoader;
 class Main
 {
 	private var WebFontConfig:Dynamic;
