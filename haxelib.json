@@ -1,0 +1,14 @@
+{
+  "name": "phaser-plugin-isometric",
+  "license": "MIT",
+  "tags": ["js","haxe","extern","web"],
+  "description": "Haxe externs for webfontloader",
+  "contributors": ["solfen"],
+  "releasenote": "Release of version 1.",
+  "version": "1.0.0",
+  "url": "https://github.com/solfen/WebFont_Haxe",
+  "classPath": "",
+  "dependencies": {
+    
+  }
+}

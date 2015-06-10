@@ -1,4 +1,4 @@
-package externs;
+package webfont;
 
 /**
  * extern pour webfontloader
