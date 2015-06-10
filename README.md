@@ -58,8 +58,9 @@ class Main
 		    	families: ['YourFont'], // name of your fonts, same as the ones in the CSS
 		    	urls: ['fonts.css'], // link to your CSS file(s)
 		    },
+		    
 			/* active is the callback function called when all your fonts are ready */
-			active: init
+			active: yourInitFunction
 		};
 		WebFontLoader.load(WebFontConfig);
 	}
